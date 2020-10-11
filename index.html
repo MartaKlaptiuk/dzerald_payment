@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Copy card number</title>
+  </head>
+  <body>
+    <img class="logo" src="img/logo.png" alt="" />
+    <div id="copyable-examples">
+      <div class="copyable-input-example">
+        <div class="flex bank">
+          <label>Приватбанк</label>
+          <img src="img/privatbank.jpg" alt="" />
+        </div>
+
+        <div class="flex">
+          <input
+            type="text"
+            value="5168 7427 2636 8891"
+            title="5168 7427 2636 8891"
+            class="copyable"
+            data-behavior="copyable"
+            readonly
+          />
+        </div>
+      </div>
+
+      <div class="copyable-input-example">
+        <div class="flex monobank">
+          <label>Монобанк</label>
+          <img src="img/monobank.jpg" alt="" />
+        </div>
+        <div class="flex">
+          <input
+            type="text"
+            value="5375 4141 1047 2288"
+            title="5375 4141 1047 2288"
+            class="copyable"
+            data-behavior="copyable"
+            readonly
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
