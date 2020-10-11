@@ -131,14 +131,14 @@ button.copyable:active {
 .bank img {
     display: block;
     width: 40px;
-    height: auto;
+    height: 40px;
     object-fit: contain;
 }
 
 .monobank img {
     display: block;
     width: 40px;
-    height: auto;
+    height: 40px;
     object-fit: contain;
 }
 
